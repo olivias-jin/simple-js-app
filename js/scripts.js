@@ -15,8 +15,8 @@ let pokemonList = [
 for (let i=0; i<pokemonList.length; i++){
     if (pokemonList[i].height>6){
         console.log(pokemonList[i].name + " (height:7)");
-    }else if (pokemonList[i].height=6){
-        console.log(pokemonList[i].name + " (height:6)");
+    }else if (pokemonList[i].height<6){
+        console.log(pokemonList[i].name + " (height:5)");
     }else {
-        console.log(pokemonList[i].name + " (height:5)");}
+        console.log(pokemonList[i].name + " (height:6)");}
     }
