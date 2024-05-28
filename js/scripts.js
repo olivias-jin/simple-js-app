@@ -19,3 +19,4 @@ for (let i=0; i<pokemonList.length; i++){
         console.log(pokemonList[i].name + " (height:6)");
     }else {
         console.log(pokemonList[i].name + " (height:5)");}
+    }
